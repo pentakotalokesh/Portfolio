@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background: #F5F6F6;
+}
+h1{
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 1rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.sidelogo{
+    padding: 2rem;
+}
+.sidelogo h1{
+    padding: 0.8rem;
+    padding-top: 1rem;
+    background-color: #F7DF1E;
+    border-radius: 8px;
+    color: #10041f;
+}
+nav{
+    list-style-type: none;
+    display: inline-flex;
+}
+li{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-out;
+}
+.nav-item img{
+    width: 80%;
+    background: #ffff;
+    border-radius: 50px;
+    padding: 1rem;
+}
+.nav-item img:hover{
+    background: #F7DF1E;
+}
+.main{
+    height: 100vh;
+    display: flex;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.hero img{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    box-shadow: 7px 7px 7px 7px;
+    transition: 0.3s ease-out;
+}
+.text{
+    padding: 1rem;
+    margin-left: 5rem;
+    font-size: 28px;
+}
+.text  span{
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: #10041f;
+}
+.details{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-around;
+}
+.details > div{
+    padding-bottom: 0.5rem;
+}
+h1 span{
+    color: #10041f;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+.skill-set{
+    height: 400px;
+    width: 400px;
+    background: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.skill-set  h1{
+    background-color: #ffff;
+    text-align: center;
+}
+.skill-set span{
+    background-color: #ffff;
+}
+.leetcode-stats  h1{
+    background-color: #ffff;
+    text-align: center;
+}
+.leetcode-stats span{
+    background-color: #ffff;
+}
+.dpskills  h1{
+    background-color: #ffff;
+    text-align: center;
+    height: 10px;
+}
+.dpskills span{
+    background-color: #ffff;
+}
+.dpskills{
+    height: 400px;
+    width: 400px;
+    background: #ffff;
+}
+.skill-set > div{
+    background: #ffff;
+    border-radius: 5px;
+}
+.clang,.cpplang,.pylogo,.jslogo{
+    display: flex;
+    justify-content: space-around;
+}
+.stars{
+    background: #ffff;
+}
+.stars li{
+    display: inline;
+    background-color: #ffff;
+}
+i{
+    background-color: #ffff;
+    font-size: 1.5rem;
+}
+.logos img{
+    background: #ffff;
+}
+.logos{
+    background: #ffff;
+}
+.stars{
+    margin-top: 0.5rem;
+}
+.fa-solid .fa-star{
+    color: #F7DF1E;
+}
+.circle{
+    display: flex;
+    border: 1px solid #10041f;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+}
+.leetcode-stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    width: 400px;
+    background: #ffff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.bt a{
+    padding: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #10041f;
+    background: #10041f;
+}
+.bt a{
+    background-color: #10041f;
+    text-decoration: none;
+    color: #F5F6F6;
+}
+.bt a:hover{
+    background-color: #F7DF1E;
+    color: #10041f;
+}
+.dpskills{
+    display: flex;
+    flex-direction: column;
+
+}
+.dpskills .ixx{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dpskills img{
+    padding: 0;
+    margin: 0;
+}
+.certifications h1{
+    background-color: #ffff;
+}
+.certifications span{
+    background-color: #ffff;
+}
+.certifications{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 96%;
+    margin: 2rem;
+    background-color: #ffff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.c{
+    justify-content: center;
+    align-items: center;
+}
+.c{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+.c img{
+    width: 400px;
+    height: 270;
+}
+/* Media Queries */
+@media screen and (min-width:320px) and (max-width:600px){
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
+    *{
+        -webkit-tap-highlight-color: transparent;
+    }
+   header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   }
+   nav{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   }
+   .nav-item img{
+    padding: 0.5em;
+   }
+   .sidelogo{
+    width: 100%;
+    text-align: center;
+   }
+   .hero{
+    width: 100%;
+    padding: 0%;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+   }
+   .text{
+    width: 100%;
+    margin: 0;
+   text-align: center;
+
+   }
+   .hero img{
+    width: 60%;
+   }
+   .details{
+    flex-direction: column;
+    width: 100%;
+   }
+   .details > div{
+    width: 100%;
+   }
+   .clang,.cpplang,.pylogo,.jslogo{
+    justify-content: space-around;
+    }
+    .stars li{
+        padding: 0;
+    }
+    .circle{
+        width: 200px;
+    }
+    .leetcode-stats{
+        width: 100%;
+    }
+    .certifications{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .c4 img{
+        width: 80%;
+    }
+    .dpskills{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+    }
+    .dpskills li{
+        width: 100%;
+    }
+    .dpskills img{
+        width: 75px;
+    }
+}
